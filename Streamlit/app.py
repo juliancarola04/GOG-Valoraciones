@@ -20,7 +20,7 @@ st.set_page_config(page_title="Estimador de Valoraciones GOG", layout="centered"
 
 @st.cache_resource
 def cargar_modelo():
-    return joblib.load('../Entrenamiento/modelo_gog_rf.pkl')
+    return joblib.load('./modelo_gog_rf.pkl')
 
 modelo = cargar_modelo()
 
