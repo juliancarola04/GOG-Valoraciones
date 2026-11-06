@@ -1,0 +1,42 @@
+# Python: bytecode y caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno y secretos de Streamlit
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Empaquetado Python
+build/
+dist/
+*.egg-info/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.bak
+*~
